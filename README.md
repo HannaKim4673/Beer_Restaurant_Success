@@ -1,6 +1,6 @@
 # Beer Restaurant Success
 
-## Topic
+## Topic and Question to Answer
 The topic of interest for this project is using beer permit data to create a machine learning model that can predict the success of beer business locations in the Nashville area. This was chosen as the topic because we would like to know what the best locations would be for opening a bar that serves beer.
 
 ## Dataset description
