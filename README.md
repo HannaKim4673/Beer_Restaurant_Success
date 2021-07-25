@@ -19,7 +19,7 @@ In case of emergency, it is best to use email to communicate, since group member
 Pandas will be used to clean the data and perform an exploratory analysis. Further analysis will be completed using Python.
 
 ### Database Storage
-SQLite is the database we intend to use, and we will integrate Flask to display the data.
+pgAdmin is the database we intend to use, and we will integrate Flask to display the data.
 
 ### Machine Learning
 Scikit-Learn is the ML library we'll be using to create a classifier. We will be using an unsupervised ML model. 
