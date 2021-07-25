@@ -1,6 +1,6 @@
 # Beer Restaurant Success
 
-## Topic
+## Topic and Question to Answer
 The topic of interest for this project is using beer permit data to create a machine learning model that can predict the success of beer business locations in the Nashville area. This was chosen as the topic because we would like to know what the best locations would be for opening a bar that serves beer.
 
 ## Dataset description
@@ -13,3 +13,16 @@ If assistance from another team member is needed, it is best to email them. Emai
 
 ### Emergency
 In case of emergency, it is best to use email to communicate, since group members seem to check email more often than Slack. 
+
+## Technologies Used
+### Data Cleaning and Analysis
+Pandas will be used to clean the data and perform an exploratory analysis. Further analysis will be completed using Python.
+
+### Database Storage
+pgAdmin is the database we intend to use, and we will integrate Flask to display the data.
+
+### Machine Learning
+Scikit-Learn is the ML library we'll be using to create a classifier. We will be using an unsupervised ML model. 
+
+### Dashboard
+In addition to using a Flask template, we will also integrate D3.js for a fully functioning and interactive dashboard. The dashboard will be hosted on Tableau.
