@@ -28,4 +28,5 @@ Scikit-Learn is the ML library we'll be using to create a classifier. We will be
 ### Dashboard
 In addition to using a Flask template, we will also integrate D3.js for a fully functioning and interactive dashboard. The dashboard will be hosted on Tableau.  
 
-
+## Linking Machine Learning Model to the Database
+We ran into issues linking the Machine Learning Model to the Database in Collab; could not install Spark. Troubleshooting was not successful. Will revisit this week with instructional team.
