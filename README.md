@@ -19,10 +19,14 @@ In case of emergency, it is best to use email to communicate, since group member
 Pandas will be used to clean the data and perform an exploratory analysis. Further analysis will be completed using Python.
 
 ### Database Storage
-pgAdmin is the database we intend to use, and we will integrate Flask to display the data.
+pgAdmin is the database we intend to use, and we will integrate Flask to display the data.  A sample of the initial cleaned dataset was taken to upload to the created database in PostgresSQL.  This database will be used to feed data into the initial machine learning algorithm.  Additional updates will follow pending this initial test. 
+
 
 ### Machine Learning
 Scikit-Learn is the ML library we'll be using to create a classifier. We will be using an unsupervised ML model. 
 
 ### Dashboard
-In addition to using a Flask template, we will also integrate D3.js for a fully functioning and interactive dashboard. The dashboard will be hosted on Tableau.
+In addition to using a Flask template, we will also integrate D3.js for a fully functioning and interactive dashboard. The dashboard will be hosted on Tableau.  
+
+## Linking Machine Learning Model to the Database
+We ran into issues linking the Machine Learning Model to the Database in Collab; could not install Spark. Troubleshooting was not successful. Will revisit this week with instructional team.
