@@ -33,4 +33,7 @@ We ran into issues linking the Machine Learning Model to the Database in Collab;
 
 ## Visualizations
 4 visualizations were created in Tableau using the [beer_permit_data_V1.csv](https://github.com/HannaKim4673/Beer_Restaurant_Success/blob/Visualizations/beer_permit_data_V1.csv) dataset. These visualizations can be seen in the screenshots below and in this [Tableau workbook](https://public.tableau.com/views/Beer_Restaurant_Success_Visualizations/PermitSubtypeBreakdown?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link):
-
+![](https://github.com/HannaKim4673/Beer_Restaurant_Success/blob/Visualizations/Viz%20Screenshots/image%201.png)
+![](https://github.com/HannaKim4673/Beer_Restaurant_Success/blob/Visualizations/Viz%20Screenshots/image%202.png)
+![](https://github.com/HannaKim4673/Beer_Restaurant_Success/blob/Visualizations/Viz%20Screenshots/image%203.png)
+![](https://github.com/HannaKim4673/Beer_Restaurant_Success/blob/Visualizations/Viz%20Screenshots/image%204.png)
