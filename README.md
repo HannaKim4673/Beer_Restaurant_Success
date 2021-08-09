@@ -83,4 +83,5 @@ In case of emergency, it is best to use email to communicate, since group member
 
 ## Presentation Draft
 Here is a link to our presentation draft: https://docs.google.com/presentation/d/1ncMNHN-_4Yj5ERpOJf3xiXUV8s-9Rn6viUx6BdiPeBo/edit?usp=sharing
+
 It can also be accessed as a powerpoint in the main branch.
