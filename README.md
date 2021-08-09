@@ -2,13 +2,28 @@
 
 ## Project Outline
 
-### Topic and Question to Answer
+### Topic
 The topic of interest for this project is using beer permit data to create a machine learning model that can predict the success of beer business locations in the Nashville area. This was chosen as the topic because we would like to know what the best locations would be for opening a bar that serves beer.
 
 ### Dataset description
 The dataset, [Beer_Permit_Locations.csv](https://github.com/HannaKim4673/Beer_Restaurant_Success/blob/main/Beer_Permit_Locations.csv), was obtained from the [Data.Nashville.gov](https://data.nashville.gov/) website. Each row of this dataset displays permit information for various beer-serving businesses in the Nashville area.
 
+#### Variables of Interest
+- permit_number
+- permit_subtype
+- date_entered
+- date_issued
+- business_name
+- zip
+- latitude
+- longitude
+- permit_duration
+
+### Question to Answer
+Based off of Beer Permit and demographic data, in which zip code will one be more successful when opening a beer serving establishment in Davidson County?
+
 ### Technologies Used
+
 #### Data Cleaning and Analysis
 Pandas will be used to clean the data and perform an exploratory analysis. Further analysis will be completed using Python.
 
@@ -48,7 +63,15 @@ Due to the model utilized being Unsupervised, our data was not split into traini
 ![](https://github.com/HannaKim4673/Beer_Restaurant_Success/blob/Visualizations/Viz%20Screenshots/image%203.png)
 ![](https://github.com/HannaKim4673/Beer_Restaurant_Success/blob/Visualizations/Viz%20Screenshots/image%204.png)
 
+#### Dashboard Outline
+Blueprint of our group's Tableau Dashboard via Google Slides. This document summarizes the findings of the cleaned Beer Permit data downloaded from data.nashville.gov and their visualizations.
 
+Storyboard on Google Slides here:
+https://docs.google.com/presentation/d/1dch2q2eS8BSIdi2nqmHNiHonMrHwQsvSz1XJeI9PPp0/edit?usp=sharing
+
+#### Tools Used
+* Visualizations from Tableau
+* Dashboard will be hosted on Tableau
 
 ## Communication Protocols
 
@@ -57,3 +80,7 @@ If assistance from another team member is needed, it is best to email them. Emai
 
 ### Emergency
 In case of emergency, it is best to use email to communicate, since group members seem to check email more often than Slack. 
+
+## Presentation Draft
+Here is a link to our presentation draft: https://docs.google.com/presentation/d/1ncMNHN-_4Yj5ERpOJf3xiXUV8s-9Rn6viUx6BdiPeBo/edit?usp=sharing
+It can also be accessed as a powerpoint in the main branch.
