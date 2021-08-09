@@ -1,5 +1,5 @@
 -- Creating tables
-CREATE TABLE Beer_Permit_Locations (
+CREATE TABLE beer_permit_locations (
 	index VARCHAR NOT NULL,
 	permit_number VARCHAR NOT NULL, 
 	permit_subtype VARCHAR NOT NULL,
@@ -15,7 +15,7 @@ CREATE TABLE Beer_Permit_Locations (
 );
 
 -- Creating tables
-CREATE TABLE Demographics (
+CREATE TABLE demographics (
 	index VARCHAR NOT NULL,
 	zip_code VARCHAR NOT NULL,
 	total_population VARCHAR NOT NULL, 
@@ -47,3 +47,7 @@ CREATE TABLE Demographics (
 ALTER TABLE demographics ADD CONSTRAINT zip_code UNIQUE (zip_code);
 ALTER TABLE beer_permit_locations ADD CONSTRAINT distfk FOREIGN KEY (zip_code) REFERENCES demographics (zip_code);
 
+-- Join tables on zip_code
+SELECT *
+FROM demographics INNER JOIN beer_permit_locations
+ON demographics.zip_code = beer_permit_locations.zip_code;
