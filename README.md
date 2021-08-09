@@ -1,31 +1,8 @@
-# Beer Restaurant Success
-
-## Topic and Question to Answer
-The topic of interest for this project is using beer permit data to create a machine learning model that can predict the success of beer business locations in the Nashville area. This was chosen as the topic because we would like to know what the best locations would be for opening a bar that serves beer.
-
-## Dataset description
-The dataset, [Beer_Permit_Locations.csv](https://github.com/HannaKim4673/Beer_Restaurant_Success/blob/main/Beer_Permit_Locations.csv), was obtained from the [Data.Nashville.gov](https://data.nashville.gov/) website. Each row of this dataset displays permit information for various beer-serving businesses in the Nashville area.
-
-## Communication Protocols
-
-### General
-If assistance from another team member is needed, it is best to email them. Emails for all team members are listed in the Slack group chat. Speaking of Slack, given that most of the members respond best to email, it is best to mostly use Slack to communicate and relay information during class breakout sessions. In situations where written communication is not sufficient to tackle a problem, a group member can set up a Zoom conference and invite required members. 
-
-### Emergency
-In case of emergency, it is best to use email to communicate, since group members seem to check email more often than Slack. 
-
-## Technologies Used
-### Data Cleaning and Analysis
-Pandas will be used to clean the data and perform an exploratory analysis. Further analysis will be completed using Python.
 
 ### Database Storage
-pgAdmin is the database we intend to use, and we will integrate Flask to display the data.  A sample of the initial cleaned dataset was taken to upload to the created database in PostgresSQL.  This database will be used to feed data into the initial machine learning algorithm.  Additional updates will follow pending this initial test. 
+    • Import data using PGAdmin server instance on AWS.  
+    • Use S3 bucketing to house datasets for public use
+    • Data is joined using a left join on zip codes
 
-
-### Machine Learning
-Scikit-Learn is the ML library we'll be using to create a classifier. We will be using an unsupervised ML model. 
-
-### Dashboard
-In addition to using a Flask template, we will also integrate D3.js for a fully functioning and interactive dashboard. The dashboard will be hosted on Tableau.  
-
+AWS is being used with S3 bucket to house the dataset.  PGAdmin is used to create the table structure, primary keys, set up foreign key and joins on zip_code for each of two tables.  The table names are beer_permit_locations and demographics.  beer_permit_locations data is obtained from data.nashville.gov included the beer permit locations.  The data set is called with an API and transformed into a usable form using Jupyter Notebook.  Demographics data was obtained from census.gov.  This data is static, without the ability to update automatically due to limitations of the website.  A separate dataset was obtained for each of three areas of interest for Nashville area zip codes.  The datasets were cleaned and transformed using Jupyter Notebook.  All three were merged on zip code from each dataset.  This gave the project two datasets for continued use.  The datasets have been set up with a foreign key relationship on zip code in PGAdmin and joined on this same column.
 
