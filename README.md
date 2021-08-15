@@ -83,14 +83,6 @@ https://docs.google.com/presentation/d/1dch2q2eS8BSIdi2nqmHNiHonMrHwQsvSz1XJeI9P
 * Visualizations from Tableau
 * Dashboard will be hosted on Tableau
 
-## Communication Protocols
-
-### General
-If assistance from another team member is needed, it is best to email them. Emails for all team members are listed in the Slack group chat. Speaking of Slack, given that most of the members respond best to email, it is best to mostly use Slack to communicate and relay information during class breakout sessions. In situations where written communication is not sufficient to tackle a problem, a group member can set up a Zoom conference and invite required members. 
-
-### Emergency
-In case of emergency, it is best to use email to communicate, since group members seem to check email more often than Slack. 
-
 ## Presentation Draft
 Here is a link to our presentation draft: https://docs.google.com/presentation/d/1ncMNHN-_4Yj5ERpOJf3xiXUV8s-9Rn6viUx6BdiPeBo/edit?usp=sharing
 
