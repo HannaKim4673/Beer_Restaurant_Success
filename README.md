@@ -19,6 +19,9 @@ The dataset, [Beer_Permit_Locations.csv](https://github.com/HannaKim4673/Beer_Re
 - longitude
 - permit_duration
 
+#### Demographics Dataset
+[all_demographic_data_merged.csv](https://github.com/HannaKim4673/Beer_Restaurant_Success/blob/main/Resources/all_demographic_data_merged.csv) shows various demographic, education, and income information for people living in Davidson county. This data was obtained from [Census.gov](https://www.census.gov/).
+
 ### Question to Answer
 Based off of Beer Permit and demographic data, in which zip code will one be more successful when opening a beer serving establishment in Davidson County?
 
