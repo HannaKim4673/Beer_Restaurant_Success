@@ -72,6 +72,8 @@ The current accuracy of the model is 74%.  Further tuning may be needed to impro
 
 ### Dashboard
 
+The Dashboard is interactive and fully functioning. Visualizations can be altered by filtering out selected data, such as permit type and zip code.
+
 ![Dashboard](https://user-images.githubusercontent.com/79758494/129497690-13d7de8b-3df7-4a1e-9974-7c46823ec6ea.PNG)
 
 https://public.tableau.com/views/Beer_Restaurant_Success_Visualizations_16288178489470/BeerSuccess?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link
