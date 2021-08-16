@@ -76,12 +76,6 @@ The current accuracy of the model is 74%.  Further tuning may be needed to impro
 
 https://public.tableau.com/views/Beer_Restaurant_Success_Visualizations_16288178489470/BeerSuccess?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link
 
-#### Dashboard Outline
-Blueprint of our group's Tableau Dashboard via Google Slides. This document summarizes the findings of the cleaned Beer Permit data downloaded from data.nashville.gov and their visualizations.
-
-Storyboard on Google Slides here:
-https://docs.google.com/presentation/d/1dch2q2eS8BSIdi2nqmHNiHonMrHwQsvSz1XJeI9PPp0/edit?usp=sharing
-
 #### Tools Used
 * Visualizations from Tableau
 * Dashboard will be hosted on Tableau
