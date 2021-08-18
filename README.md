@@ -49,23 +49,25 @@ AWS is being used with S3 bucket to house the dataset.  PGAdmin is used to creat
 ERD
 ![ERD](https://user-images.githubusercontent.com/79231355/128651591-c4f0c780-0c70-4a2a-b7c9-aec99b44e341.png)
 
-## Machine Learning Model
+### Machine Learning Model
 
-## Description of preliminary data preprocessing: 
+#### Description of preliminary data preprocessing: 
 Data preprocessing was performed using Jupyter Notebook and Pandas.   Data was then scaled by importing StandardScaler from sklearn.preprocessing. 
 
-## Description of feature engineering and feature selection, including their decision-making process:
+#### Description of feature engineering and feature selection, including their decision-making process:
 For the feature engineering, we wanted to look at factors that attribute to the success of business serving beer.  Various data points were considered and analyzed to determine a correlation.  The group decided that population, zip code, average household income and permit duration are the major factors of consideration.  
 Feature selection was done through data analysis and visualizations.  Preliminary assumptions were made that needed to be proven accurate with the selected supervised model.  This required a binary data set for the model, which was created and added to the dataframe.  
 
-## Explanation of model choice, including limitations and benefits:
+#### Explanation of model choice, including limitations and benefits:
 We utilized an Unsupervised Machine Learning Model. We used this model to transform the data to create an intuitive representation for the analysis. We also used the unsupervised Machine Learning Model to determine patterns in our data by clustering. A benefit to using the Unsupervised Machine Learning model is that it looks at the data, rather than taking in pairing of inputs and outputs from the data, which would not have been possible with our data set. 
-### Explanation of changes in model choice
+
+#### Explanation of changes in model choice
 After careful consideration of this model, the team determined a supervised model would be of better utilization for this project.  Assumptions were made through data analysis and visualizations that needed to be proven correct using supervised learning.  The model used is Random Forest.  This model allows for multiple features and large datasets by randomly sampling each feature.  These samples are weak learners, but become strong learners when combined.  These models resist overfitting and can rank the importance of input variables.  Disadvantages include limitation to the selection of parameters, but can be offset by boosting/bootstrapping. 
 
-## Description of how data was split into training and testing sets:
+#### Description of how data was split into training and testing sets:
 Data was split into training and testing sets using train_test_split at the default rate 
-## Description of current accuracy score. Additionally, the model obviously addresses the question or problem the team is solving.
+
+#### Description of current accuracy score. Additionally, the model obviously addresses the question or problem the team is solving.
 The current accuracy of the model is 74%.  Further tuning may be needed to improve this number, if possible.  However, trial and error in feature selection has been performed to achieve the current result.  For the purposes of business success probability, this model should be sufficiently accurate.  The model accurately supports the question the team is solving. 
 
 ### Dashboard
@@ -75,6 +77,13 @@ The Dashboard is interactive and fully functioning. Visualizations can be altere
 ![Dashboard](https://user-images.githubusercontent.com/79758494/129497690-13d7de8b-3df7-4a1e-9974-7c46823ec6ea.PNG)
 
 https://public.tableau.com/views/Beer_Restaurant_Success_Visualizations_16288178489470/BeerSuccess?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link
+
+#### Initial Visualizations
+4 starting visualizations were created in Tableau using the [beer_permit_data_V1.csv](https://github.com/HannaKim4673/Beer_Restaurant_Success/blob/Visualizations/beer_permit_data_V1.csv) dataset. These visualizations can be seen in the screenshots below and in this [Tableau workbook](https://public.tableau.com/views/Beer_Restaurant_Success_Visualizations/PermitSubtypeBreakdown?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link):
+![](https://github.com/HannaKim4673/Beer_Restaurant_Success/blob/Visualizations/Viz%20Screenshots/image%201.png)
+![](https://github.com/HannaKim4673/Beer_Restaurant_Success/blob/Visualizations/Viz%20Screenshots/image%202.png)
+![](https://github.com/HannaKim4673/Beer_Restaurant_Success/blob/Visualizations/Viz%20Screenshots/image%203.png)
+![](https://github.com/HannaKim4673/Beer_Restaurant_Success/blob/Visualizations/Viz%20Screenshots/image%204.png)
 
 #### Tools Used
 * Visualizations from Tableau
