@@ -22,6 +22,22 @@ The dataset, [Beer_Permit_Locations.csv](https://github.com/HannaKim4673/Beer_Re
 #### Demographics Dataset
 [all_demographic_data_merged.csv](https://github.com/HannaKim4673/Beer_Restaurant_Success/blob/main/Resources/all_demographic_data_merged.csv) shows various demographic, education, and income information for people living in Davidson county. This data was obtained from [Census.gov](https://www.census.gov/).
 
+#### Variables of Interest
+- zip code
+- total population
+    - split into male and female
+- 18+ population
+    - split into male and female
+- 18-24 education level
+    - split into not high school graduate, high school graduate, and Bachelor's degree or higher
+- 25-34 education level
+    - split into not high school graduate, high school graduate, and Bachelor's degree or higher
+- 35-44 education level
+    - split into not high school graduate, high school graduate, and Bachelor's degree or higher
+- 65 and up education level
+    - split into not high school graduate, high school graduate, and Bachelor's degree or higher
+- average household income     
+
 ### Question to Answer
 Based off of Beer Permit and demographic data, in which zip code will one be more successful when opening a beer serving establishment in Davidson County?
 
