@@ -1,7 +1,5 @@
 # Beer Restaurant Success
 
-
-
 ## Project Outline
 
 ### Topic
@@ -83,8 +81,6 @@ https://public.tableau.com/views/Beer_Restaurant_Success_Visualizations_16288178
 * Dashboard will be hosted on Tableau
 
 ## Presentation Draft
-Here is a link to our presentation draft: https://docs.google.com/presentation/d/1ncMNHN-_4Yj5ERpOJf3xiXUV8s-9Rn6viUx6BdiPeBo/edit?usp=sharing
+Here is a link to our presentation: https://docs.google.com/presentation/d/1ncMNHN-_4Yj5ERpOJf3xiXUV8s-9Rn6viUx6BdiPeBo/edit?usp=sharing
 
 It can also be accessed as a powerpoint in the main branch.
-
-
