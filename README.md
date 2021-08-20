@@ -105,6 +105,15 @@ https://public.tableau.com/views/Beer_Restaurant_Success_Visualizations_16288178
 * Visualizations from Tableau
 * Dashboard will be hosted on Tableau
 
+### Analysis Results
+We found that the further away from downtown Nashville a beer-serving business is located, the longer that business has a permit. It should be noted that data is limited to current active permits in Davidson county. Also, our results showed that a person interested in establishing a beer-serving business away from downtown Nashville needs to consider the desires of local populations, since different demographic groups have different desires.
+
+### Further Analysis Recommendations
+When measuring “success”, there are many different ways to measure that. In our analysis, we used active permit duration (by days) to measure success. For future analysis, we recommended using multiple different measures of success. On top of active permit duration, using other datasets such as review data (from Yelp or Google) and revenue data could help a model better predict whether or not a beer-serving business will end up being successful.
+
+### Things We Would've Done Differently
+Looking back at our project, there are a few things that we would have done differently. First, we would have found and added rent data by zip code. Another thing we could've done in addition to our current data use hotel and short term rental datasets and map them. According to visitmusiccity.com, in 2019 there were 16.1 million visitors to Nashville. If an establishment were looking for a new location to open and be successful, having this data available could be impactful. Also, we could have taken time experimenting with additional machine learning models. 
+
 ## Presentation Draft
 Here is a link to our presentation: https://docs.google.com/presentation/d/1ncMNHN-_4Yj5ERpOJf3xiXUV8s-9Rn6viUx6BdiPeBo/edit?usp=sharing
 
