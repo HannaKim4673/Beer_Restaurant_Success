@@ -114,7 +114,7 @@ When measuring “success”, there are many different ways to measure that. In 
 ### Things We Would've Done Differently
 Looking back at our project, there are a few things that we would have done differently. First, we would have found and added rent data by zip code. Another thing we could've done in addition to our current data use hotel and short term rental datasets and map them. According to visitmusiccity.com, in 2019 there were 16.1 million visitors to Nashville. If an establishment were looking for a new location to open and be successful, having this data available could be impactful. Also, we could have taken time experimenting with additional machine learning models. 
 
-## Presentation Draft
+## Presentation
 Here is a link to our presentation: https://docs.google.com/presentation/d/1ncMNHN-_4Yj5ERpOJf3xiXUV8s-9Rn6viUx6BdiPeBo/edit?usp=sharing
 
 It can also be accessed as a powerpoint in the main branch.
